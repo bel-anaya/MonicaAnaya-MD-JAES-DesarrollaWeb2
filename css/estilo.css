@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@800&display=swap');
+*{
+    margin: 0;
+}
+.bg-nav{
+    background-color: rgb(217, 90, 17, 0.4);
+}
+.Nhover {
+    transition: background-color 0.4s;
+    border-radius: 5px;
+}
+.Nhover:hover{
+    background-color: rgb(217, 90, 17);
+}
+h1{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.divImg {
+  background-image: url("../img/pexels-vanessa-loring-min.jpg");
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: 100%;
+  /*background-position: center center;
+  background-position: 50%;
+  background-position: 50% 50%;
+  background-position: center 50%;
+  background-position: 50% center;*/
+  display: grid;
+}
+.divImg div {
+  margin: auto;
+}
+.divImg div h1 {
+  font-size: 80px;
+}
+.bg-origen{
+    background-color:  rgb(244, 174, 25, 0.2);
+}
+.origen {
+  padding: 5%;
+}
+.boton{
+    border-color: rgb(244, 174, 25);
+    border-width: 2px;
+}
+.texto {
+  text-align: justify;
+}
+.anatomia-col1 {
+  padding: 5%;
+}
+.anatomia-col2 {
+  padding: 4%;
+  background-color: rgb( 242, 92, 5 , 0.2);
+}
+.bg-footer{
+    background-color: rgb(217, 90, 17, 0.4);
+}
